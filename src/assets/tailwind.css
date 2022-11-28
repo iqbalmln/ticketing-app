@@ -3,3 +3,16 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.router-link-exact-active {
+  color: #fff;
+  border-bottom: 2px solid white;
+  transition: all ease-in .3s;
+}
+
+.height-custom {
+  height: 90vh;
+}
+.height-custom-navbar {
+  height: 10vh;
+}

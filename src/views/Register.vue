@@ -1,16 +1,19 @@
 <template>
-  <div></div>
+  <div>
+    ini register
+  </div>
 </template>
 
 <script>
 export default {
-  name: "register",
-  setup() {
-    // Create data / vars
+  setup () {
+    
 
-    // Register function
-
-    return {};
-  },
-};
+    return {}
+  }
+}
 </script>
+
+<style lang="scss" scoped>
+
+</style>
