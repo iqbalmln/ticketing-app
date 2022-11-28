@@ -7,6 +7,7 @@ module.exports = {
         "at-light-green": "#44ba9f",
         "at-green": "#286d5d",
         "light-grey": "#f1f1f1",
+        "blue-brand": "#253368",
       },
     },
     fontFamily: {
@@ -28,5 +29,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 };
